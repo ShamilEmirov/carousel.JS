@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container>img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: none;
+}
+
+#left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    padding: 10px 20px;
+}
+
+#right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    padding: 10px 20px;
+}
